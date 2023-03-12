@@ -1,63 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-12T19:48:57 IST" name="Suite" finished-at="2023-03-12T19:48:58 IST" duration-ms="362">
+  <suite started-at="2023-03-12T20:20:41 IST" name="tc1" finished-at="2023-03-12T20:20:41 IST" duration-ms="653">
     <groups>
       <group name="smoke">
-        <method signature="tc1.script1()[pri:0, instance:tc1@7690781]" name="script1" class="tc1"/>
-        <method signature="tc1.script2()[pri:0, instance:tc1@7690781]" name="script2" class="tc1"/>
-        <method signature="tc1.script3()[pri:0, instance:tc1@7690781]" name="script3" class="tc1"/>
-        <method signature="tc2.script1()[pri:0, instance:tc2@1eb5174b]" name="script1" class="tc2"/>
-        <method signature="tc2.script2()[pri:0, instance:tc2@1eb5174b]" name="script2" class="tc2"/>
-        <method signature="tc2.script3()[pri:0, instance:tc2@1eb5174b]" name="script3" class="tc2"/>
+        <method signature="tc1.script1()[pri:0, instance:tc1@4567f35d]" name="script1" class="tc1"/>
+        <method signature="tc1.script2()[pri:0, instance:tc1@4567f35d]" name="script2" class="tc1"/>
+        <method signature="tc1.script3()[pri:0, instance:tc1@4567f35d]" name="script3" class="tc1"/>
       </group> <!-- smoke -->
       <group name="regressioin">
-        <method signature="tc1.script3()[pri:0, instance:tc1@7690781]" name="script3" class="tc1"/>
-        <method signature="tc2.script2()[pri:0, instance:tc2@1eb5174b]" name="script2" class="tc2"/>
-        <method signature="tc2.script3()[pri:0, instance:tc2@1eb5174b]" name="script3" class="tc2"/>
+        <method signature="tc1.script3()[pri:0, instance:tc1@4567f35d]" name="script3" class="tc1"/>
       </group> <!-- regressioin -->
     </groups>
-    <test started-at="2023-03-12T19:48:57 IST" name="Test" finished-at="2023-03-12T19:48:58 IST" duration-ms="362">
-      <class name="tc2">
-        <test-method signature="script1()[pri:0, instance:tc2@1eb5174b]" started-at="2023-03-12T19:48:58 IST" name="script1" finished-at="2023-03-12T19:48:58 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- script1 -->
-        <test-method signature="script2()[pri:0, instance:tc2@1eb5174b]" started-at="2023-03-12T19:48:58 IST" name="script2" finished-at="2023-03-12T19:48:58 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- script2 -->
-        <test-method signature="script3()[pri:0, instance:tc2@1eb5174b]" started-at="2023-03-12T19:48:58 IST" name="script3" finished-at="2023-03-12T19:48:58 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- script3 -->
-        <test-method signature="test(java.lang.String)[pri:0, instance:tc2@1eb5174b]" started-at="2023-03-12T19:48:58 IST" name="test" finished-at="2023-03-12T19:48:58 IST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SureshRoshan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- tc2 -->
+    <test started-at="2023-03-12T20:20:41 IST" name="Command line test" finished-at="2023-03-12T20:20:41 IST" duration-ms="653">
       <class name="tc1">
-        <test-method signature="script1()[pri:0, instance:tc1@7690781]" started-at="2023-03-12T19:48:58 IST" name="script1" finished-at="2023-03-12T19:48:58 IST" duration-ms="29" status="PASS">
+        <test-method signature="script1()[pri:0, instance:tc1@4567f35d]" started-at="2023-03-12T20:20:41 IST" name="script1" finished-at="2023-03-12T20:20:41 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script1 -->
-        <test-method signature="script2()[pri:0, instance:tc1@7690781]" started-at="2023-03-12T19:48:58 IST" name="script2" finished-at="2023-03-12T19:48:58 IST" duration-ms="8" status="PASS">
+        <test-method signature="script2()[pri:0, instance:tc1@4567f35d]" started-at="2023-03-12T20:20:41 IST" name="script2" finished-at="2023-03-12T20:20:41 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script2 -->
-        <test-method signature="script3()[pri:0, instance:tc1@7690781]" started-at="2023-03-12T19:48:58 IST" name="script3" finished-at="2023-03-12T19:48:58 IST" duration-ms="7" status="PASS">
+        <test-method signature="script3()[pri:0, instance:tc1@4567f35d]" started-at="2023-03-12T20:20:41 IST" name="script3" finished-at="2023-03-12T20:20:41 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script3 -->
       </class> <!-- tc1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- tc1 -->
 </testng-results>
