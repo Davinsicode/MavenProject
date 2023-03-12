@@ -73,7 +73,7 @@
   
   <profiles>
 	  <profile>
-		  <id>smoke</id>
+		  <id>suiteExecution</id>
 		  <build>
 	<plugins>
     
@@ -83,7 +83,7 @@
         <version>3.0.0-M8</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>smoke.xml</suiteXmlFile>
+            <suiteXmlFile>MavenSuiteExecution.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
