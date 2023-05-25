@@ -73,7 +73,7 @@
   
   <profiles>
 	  <profile>
-		  <id>suiteExecution</id>
+		  <id>appointment</id>
 		  <build>
 	<plugins>
     
@@ -83,7 +83,7 @@
         <version>3.0.0-M8</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>MavenSuiteExecution.xml</suiteXmlFile>
+            <suiteXmlFile>SuiteExecution.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

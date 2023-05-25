@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-12T20:20:41 IST" name="tc1" finished-at="2023-03-12T20:20:41 IST" duration-ms="653">
+  <suite started-at="2023-05-19T10:17:44 IST" name="mavenTestPractise.doctorModuleTest" finished-at="2023-05-19T10:17:44 IST" duration-ms="264">
     <groups>
-      <group name="smoke">
-        <method signature="tc1.script1()[pri:0, instance:tc1@4567f35d]" name="script1" class="tc1"/>
-        <method signature="tc1.script2()[pri:0, instance:tc1@4567f35d]" name="script2" class="tc1"/>
-        <method signature="tc1.script3()[pri:0, instance:tc1@4567f35d]" name="script3" class="tc1"/>
-      </group> <!-- smoke -->
-      <group name="regressioin">
-        <method signature="tc1.script3()[pri:0, instance:tc1@4567f35d]" name="script3" class="tc1"/>
-      </group> <!-- regressioin -->
+      <group name="appointment">
+        <method signature="doctorModuleTest.appointment()[pri:0, instance:mavenTestPractise.doctorModuleTest@5ffead27]" name="appointment" class="mavenTestPractise.doctorModuleTest"/>
+        <method signature="doctorModuleTest.scheduled()[pri:0, instance:mavenTestPractise.doctorModuleTest@5ffead27]" name="scheduled" class="mavenTestPractise.doctorModuleTest"/>
+      </group> <!-- appointment -->
     </groups>
-    <test started-at="2023-03-12T20:20:41 IST" name="Command line test" finished-at="2023-03-12T20:20:41 IST" duration-ms="653">
-      <class name="tc1">
-        <test-method signature="script1()[pri:0, instance:tc1@4567f35d]" started-at="2023-03-12T20:20:41 IST" name="script1" finished-at="2023-03-12T20:20:41 IST" duration-ms="39" status="PASS">
+    <test started-at="2023-05-19T10:17:44 IST" name="Command line test" finished-at="2023-05-19T10:17:44 IST" duration-ms="264">
+      <class name="mavenTestPractise.doctorModuleTest">
+        <test-method signature="appointment()[pri:0, instance:mavenTestPractise.doctorModuleTest@5ffead27]" started-at="2023-05-19T10:17:44 IST" name="appointment" finished-at="2023-05-19T10:17:44 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- script1 -->
-        <test-method signature="script2()[pri:0, instance:tc1@4567f35d]" started-at="2023-03-12T20:20:41 IST" name="script2" finished-at="2023-03-12T20:20:41 IST" duration-ms="31" status="PASS">
+        </test-method> <!-- appointment -->
+        <test-method signature="createPrescription()[pri:0, instance:mavenTestPractise.doctorModuleTest@5ffead27]" started-at="2023-05-19T10:17:44 IST" name="createPrescription" finished-at="2023-05-19T10:17:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- script2 -->
-        <test-method signature="script3()[pri:0, instance:tc1@4567f35d]" started-at="2023-03-12T20:20:41 IST" name="script3" finished-at="2023-03-12T20:20:41 IST" duration-ms="14" status="PASS">
+        </test-method> <!-- createPrescription -->
+        <test-method signature="createReport()[pri:0, instance:mavenTestPractise.doctorModuleTest@5ffead27]" started-at="2023-05-19T10:17:44 IST" name="createReport" finished-at="2023-05-19T10:17:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- script3 -->
-      </class> <!-- tc1 -->
+        </test-method> <!-- createReport -->
+        <test-method signature="scheduled()[pri:0, instance:mavenTestPractise.doctorModuleTest@5ffead27]" started-at="2023-05-19T10:17:44 IST" name="scheduled" finished-at="2023-05-19T10:17:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduled -->
+      </class> <!-- mavenTestPractise.doctorModuleTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- tc1 -->
+  </suite> <!-- mavenTestPractise.doctorModuleTest -->
 </testng-results>
